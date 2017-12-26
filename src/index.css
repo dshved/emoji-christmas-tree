@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.custom-emoji span{
+  background-size: 100%!important;
+  background-position: center center!important;
+  background-repeat: no-repeat!important;
+}
+
+.emoji-mart-emoji-custom span {
+  background-size: 100%!important;
+  background-position: center center!important;
+  background-repeat: no-repeat!important;
+}
+
+.cont {
+  font-size: 0;
+  width: 360px;
+  margin: 0 auto;
+  border: 1px solid #bbb;
+}
+#modal-root {
+  position: relative;
+  z-index: 999;
+}
+
+.modal {
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
